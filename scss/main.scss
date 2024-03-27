@@ -8,3 +8,28 @@ $logo-height: auto;
     width: $logo-width;
     height: $logo-height;
 }
+
+.navbar-nav .nav-link{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn-connect{
+    
+    padding: 8px 18px !important;
+    border-radius: 30px;
+    background-color: rgba($color: #fff, $alpha: 0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-connect:hover{
+    background-color: #fff;
+    color: $secondary;
+    text-decoration: none;
+}
+
+@media (max-width 700px){
+    .btn-connect{
+        margin-left: 0px !important;
+    }
+}

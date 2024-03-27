@@ -11969,4 +11969,28 @@ textarea.form-control-lg {
 .navbar-brand img {
   width: 150px;
   height: auto;
+}
+
+.navbar-nav .nav-link {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn-connect {
+  padding: 8px 18px !important;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn-connect:hover {
+  background-color: #fff;
+  color: #C6732E;
+  text-decoration: none;
+}
+
+@media (max-width 700px) {
+  .btn-connect {
+    margin-left: 0px !important;
+  }
 }/*# sourceMappingURL=main.css.map */
