@@ -11965,4 +11965,8 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.navbar-brand img {
+  width: 150px;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */

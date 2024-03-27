@@ -1,2 +1,10 @@
 @import url("/node_modules/bootstrap-icons/font/bootstrap-icons.css");
 @import 'custom';
+
+$logo-width: 150px;
+$logo-height: auto;
+
+.navbar-brand img{
+    width: $logo-width;
+    height: $logo-height;
+}
