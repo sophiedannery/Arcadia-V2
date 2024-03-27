@@ -11980,6 +11980,21 @@ main {
     margin-bottom: 640px;
   }
 }
+h1, .h1 {
+  font-family: "Anton", serif;
+  font-size: 100.98px;
+}
+
+h1, .h1 {
+  font-family: "Anton", serif;
+  font-size: 75.8px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
 .navbar-brand img {
   width: 150px;
   height: auto;
@@ -12039,4 +12054,28 @@ footer a {
 
 .footer-icones i {
   margin: 0px 20px;
+}
+
+.hero-scene {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(/Media/bg-hero.jpg);
+  background-size: cover;
+}
+
+.hero-scene-content {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 4rem;
+  padding-top: 12rem;
+}
+
+@media (max-width: 700px) {
+  h1, .h1 {
+    font-size: 57px;
+  }
+  .hero-scene-content {
+    padding-right: 4rem;
+    padding-top: 29rem;
+  }
 }/*# sourceMappingURL=main.css.map */

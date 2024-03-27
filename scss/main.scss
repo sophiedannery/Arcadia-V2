@@ -18,6 +18,24 @@ main{
     }
 }
 
+
+//Pré enregistrement des polices et des tailles
+h1{
+    font-family: $font-family-serif;
+    font-size: 100.98px;
+}
+h1{
+    font-family: $font-family-serif;
+    font-size: 75.8px;
+}
+p{
+    font-family: $font-family-sans-serif;
+    font-size: 18px;
+}
+
+
+
+
 //HEADER
 
 //Taille logo du header
@@ -103,4 +121,36 @@ footer a{
 
 .footer-icones i{
     margin: 0px 20px;
+}
+
+
+
+// HERO SCENE
+
+//Mettre l'image en fond du hero-scene
+.hero-scene{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(/Media/bg-hero.jpg);
+    background-size: cover;
+}
+
+.hero-scene-content{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 4rem;
+    padding-top: 12rem;
+}
+
+
+//Responsive hero-scene
+@media(max-width: 700px){
+    h1{
+        font-size: 57px;
+    }
+
+    .hero-scene-content{
+        padding-right: 4rem;
+        padding-top: 29rem;
+    }
 }
