@@ -11985,14 +11985,27 @@ h1, .h1 {
   font-size: 100.98px;
 }
 
-h1, .h1 {
+h2, .h2 {
   font-family: "Anton", serif;
   font-size: 75.8px;
+}
+
+h4, .h4 {
+  font-family: "Anton", serif;
+  font-size: 42.6px;
+  color: #C6732E;
+}
+
+h5, .h5 {
+  font-family: "Anton", serif;
+  font-size: 31.98px;
+  color: #C6732E;
 }
 
 p {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
+  color: #352818;
 }
 
 .navbar-brand img {
@@ -12085,4 +12098,69 @@ footer a {
   left: 0;
   width: 100%;
   z-index: 1000;
+}
+
+.description i {
+  font-size: 40px;
+  color: #C6732E;
+}
+
+.section-description {
+  position: relative;
+}
+
+.section-description img {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  left: 0;
+}
+
+.white-space {
+  padding-left: 130px;
+}
+
+.infos {
+  padding-left: 80px;
+  padding-top: 50px;
+}
+
+.col1 {
+  background-color: #484C19;
+}
+
+.col2 {
+  background-color: #C6732E;
+}
+
+.col3 {
+  background-color: #352818;
+}
+
+.section-preparervisite h5, .section-preparervisite .h5,
+.section-preparervisite p,
+.section-preparervisite i,
+.section-preparervisite a {
+  color: #fff;
+}
+
+.section-preparervisite i {
+  font-size: 40px;
+  margin-right: 15px;
+}
+
+.horaire-title,
+.adresse-title,
+.restauration-title,
+.visiter-title {
+  display: flex;
+}
+
+.col1,
+.col2,
+.col3 {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }/*# sourceMappingURL=main.css.map */
