@@ -1,6 +1,26 @@
 @import url("/node_modules/bootstrap-icons/font/bootstrap-icons.css");
 @import 'custom';
 
+//Car le footer est en position absolute, il faut donc que le parent soit en position relative
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+//Pour que le contenu de la page ne passe pas sur le footer, ajout d'une marge en bas de main
+main{
+    margin-bottom: 350px;
+}
+
+@media(max-width: 700px){
+    main{
+        margin-bottom: 640px;
+    }
+}
+
+//HEADER
+
+//Taille logo du header
 $logo-width: 150px;
 $logo-height: auto;
 
@@ -9,11 +29,13 @@ $logo-height: auto;
     height: $logo-height;
 }
 
+//Typo des liens du menu
 .navbar-nav .nav-link{
     font-weight: bold;
     font-size: 18px;
 }
 
+//bouton connexion dans le menu
 .btn-connect{
     
     padding: 8px 18px !important;
@@ -25,11 +47,60 @@ $logo-height: auto;
 .btn-connect:hover{
     background-color: #fff;
     color: $secondary;
-    text-decoration: none;
 }
 
-@media (max-width 700px){
-    .btn-connect{
-        margin-left: 0px !important;
-    }
+
+
+//FOOTER
+
+
+//en position absolute pour que le footer reste en bas de la page
+footer{
+    padding: 15px !important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+//gestion logo footer
+$logo-footer-width: 150px;
+$logo-footer-height: auto;
+
+footer img{
+    width: $logo-width;
+    height: $logo-height;
+}
+
+
+//typo footer
+footer h3{
+    font-size: 13.5px;
+    font-weight: bold;
+}
+
+footer p{
+    font-size: 10.13px;
+}
+
+footer a{
+    font-size: 10.13px;
+}
+
+
+.footer-copyright-bold{
+    font-weight: bold;
+}
+
+
+//gestion icones footer
+
+.footer-icones{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-icones i{
+    margin: 0px 20px;
 }

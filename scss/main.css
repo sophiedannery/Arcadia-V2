@@ -11966,6 +11966,20 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+main {
+  margin-bottom: 350px;
+}
+
+@media (max-width: 700px) {
+  main {
+    margin-bottom: 640px;
+  }
+}
 .navbar-brand img {
   width: 150px;
   height: auto;
@@ -11986,11 +12000,43 @@ textarea.form-control-lg {
 .btn-connect:hover {
   background-color: #fff;
   color: #C6732E;
-  text-decoration: none;
 }
 
-@media (max-width 700px) {
-  .btn-connect {
-    margin-left: 0px !important;
-  }
+footer {
+  padding: 15px !important;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer img {
+  width: 150px;
+  height: auto;
+}
+
+footer h3, footer .h3 {
+  font-size: 13.5px;
+  font-weight: bold;
+}
+
+footer p {
+  font-size: 10.13px;
+}
+
+footer a {
+  font-size: 10.13px;
+}
+
+.footer-copyright-bold {
+  font-weight: bold;
+}
+
+.footer-icones {
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer-icones i {
+  margin: 0px 20px;
 }/*# sourceMappingURL=main.css.map */
