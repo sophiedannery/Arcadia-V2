@@ -11996,7 +11996,7 @@ p {
 }
 
 .navbar-brand img {
-  width: 150px;
+  width: 170px;
   height: auto;
 }
 
@@ -12025,7 +12025,7 @@ footer {
 }
 
 footer img {
-  width: 150px;
+  width: 170px;
   height: auto;
 }
 
@@ -12057,17 +12057,17 @@ footer a {
 }
 
 .hero-scene {
-  background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(/Media/bg-hero.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(/Media/bg-hero-V2.jpg);
   background-size: cover;
 }
 
 .hero-scene-content {
-  height: 75vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: end;
   padding-right: 4rem;
-  padding-top: 12rem;
+  padding-top: 18rem;
 }
 
 @media (max-width: 700px) {
@@ -12076,6 +12076,13 @@ footer a {
   }
   .hero-scene-content {
     padding-right: 4rem;
-    padding-top: 29rem;
+    padding-top: 39rem;
   }
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }/*# sourceMappingURL=main.css.map */

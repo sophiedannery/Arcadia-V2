@@ -36,10 +36,16 @@ p{
 
 
 
+
+
+
+
+
+
 //HEADER
 
 //Taille logo du header
-$logo-width: 150px;
+$logo-width: 170px;
 $logo-height: auto;
 
 .navbar-brand img{
@@ -55,7 +61,6 @@ $logo-height: auto;
 
 //bouton connexion dans le menu
 .btn-connect{
-    
     padding: 8px 18px !important;
     border-radius: 30px;
     background-color: rgba($color: #fff, $alpha: 0.3);
@@ -66,6 +71,7 @@ $logo-height: auto;
     background-color: #fff;
     color: $secondary;
 }
+
 
 
 
@@ -129,17 +135,17 @@ footer a{
 
 //Mettre l'image en fond du hero-scene
 .hero-scene{
-    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(/Media/bg-hero.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(/Media/bg-hero-V2.jpg);
     background-size: cover;
 }
 
 .hero-scene-content{
-    height: 75vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: end;
     padding-right: 4rem;
-    padding-top: 12rem;
+    padding-top: 18rem;
 }
 
 
@@ -151,6 +157,16 @@ footer a{
 
     .hero-scene-content{
         padding-right: 4rem;
-        padding-top: 29rem;
+        padding-top: 39rem;
     }
+}
+
+
+//test image derrière navbar
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
