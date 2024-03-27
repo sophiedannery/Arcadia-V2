@@ -12163,4 +12163,35 @@ footer a {
   padding-bottom: 30px;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.image-habitat-jungle {
+  height: 576px;
+  width: 375px;
+  border-radius: 30px;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.3)), url(/Media/lajungle.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-habitat-savane {
+  height: 576px;
+  width: 375px;
+  border-radius: 30px;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.3)), url(/Media/lasavane.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-habitat-marais {
+  height: 576px;
+  width: 375px;
+  border-radius: 30px;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.3)), url(/Media/lecrocodile.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.habitats col {
+  margin: 20px 50px !important;
 }/*# sourceMappingURL=main.css.map */
