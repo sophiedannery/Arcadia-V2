@@ -12025,9 +12025,35 @@ p {
   transition: all 0.3s ease;
 }
 
+.navbar-nav .nav-link.custom-link {
+  font-weight: 400;
+}
+
 .btn-connect:hover {
   background-color: #fff;
-  color: #C6732E;
+  color: black;
+}
+
+.navbar-nav .nav-link.custom-link:hover {
+  color: black !important;
+}
+
+.nav-link::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #fff;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link.nav-link.custom-link:hover::after {
+  width: 0% !important;
 }
 
 footer {
@@ -12125,6 +12151,10 @@ footer a {
   padding-top: 50px;
 }
 
+.article-preparervisite {
+  background-color: #484C19;
+}
+
 .col1 {
   background-color: #484C19;
 }
@@ -12134,7 +12164,7 @@ footer a {
 }
 
 .col3 {
-  background-color: #352818;
+  background-color: #484C19;
 }
 
 .section-preparervisite h5, .section-preparervisite .h5,
@@ -12193,5 +12223,110 @@ footer a {
 }
 
 .habitats col {
-  margin: 20px 50px !important;
+  padding-bottom: 50px;
+}
+
+.row-habitats {
+  margin: auto;
+}
+
+.section-lien-animaux {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-lien-animaux h5, .section-lien-animaux .h5 {
+  color: #352818;
+}
+
+.btn-animaux {
+  background-color: #C6732E;
+  border-radius: 30px;
+  width: 272px;
+  height: 47px;
+  border: none;
+  margin-top: 40px;
+}
+
+.btn-animaux a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.section-lien-animaux {
+  position: relative;
+}
+
+.section-lien-animaux img {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+}
+
+.section-avis {
+  background-image: linear-gradient(rgba(4, 9, 30, 0), rgba(4, 9, 30, 0)), url(/Media/bg-avis.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.container-avis {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 30px;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.avis-box {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.pseudo {
+  font-size: 13.5px;
+  color: #858B51;
+}
+
+.fa-quote-right,
+.fa-quote-left {
+  font-size: 50px;
+  color: #858B51;
+}
+
+.fa-quote-right {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.fa-quote-left {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.btn-avis {
+  border-radius: 30px;
+  width: 160px;
+  height: 30px;
+  border: none;
+  position: absolute;
+  right: 0;
+  bottom: -20%;
+}
+
+.btn-avis a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13.5px;
+  font-weight: 300;
 }/*# sourceMappingURL=main.css.map */
